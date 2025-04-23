@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Product Grid</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .products {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      padding: 20px;
+    }
+    .product {
+      width: 180px;
+      text-align: center;
+    }
+    .product img {
+      width: 100%;
+      height: auto;
+    }
+    .price {
+      margin: 10px 0;
+    }
+    .old-price {
+      text-decoration: line-through;
+      color: gray;
+      font-size: 0.9em;
+    }
+    .new-price {
+      color: #e63946;
+      font-weight: bold;
+      margin-left: 5px;
+    }
+    .discount {
+      color: green;
+      font-size: 0.8em;
+      margin-left: 5px;
+    }
+    .stars {
+      color: gold;
+    }
+  </style>
+</head>
+<body>
+
+<div class="products">
+  
+  <div class="product">
+    <img src="./image1.png" alt="Whole Wheat Sandwich Bread">
+    <div>Whole Wheat Sandwich Bread</div>
+    <div class="stars">★★★★★ (222)</div>
+    <div class="price">
+      <span class="old-price">$24.00</span>
+      <span class="new-price">$18.00</span>
+      <span class="discount">10% OFF</span>
+    </div>
+  </div>
+
+  <div class="product">
+    <img src="./image2.png" alt="Whole Grain Oatmeal">
+    <div>Whole Grain Oatmeal</div>
+    <div class="stars">★★★★★ (41)</div>
+    <div class="price">
+      <span class="old-price">$54.00</span>
+      <span class="new-price">$50.00</span>
+      <span class="discount">10% OFF</span>
+    </div>
+  </div>
+
+  <div class="product" style="margin-top:40px;">
+    <img src="./image3.png" alt="Sharp Cheddar Cheese Block">
+    <div>Sharp Cheddar Cheese Block</div>
+    <div class="stars">★★★★★ (32)</div>
+    <div class="price">
+      <span class="old-price">$14.00</span>
+      <span class="new-price">$12.00</span>
+      <span class="discount">10% OFF</span>
+    </div>
+  </div>
+
+  <div class="product" style="margin-top:40px;">
+    <img src="./image5.png" alt="Organic Baby Spinach">
+    <div>Organic Baby Spinach</div>
+    <div class="stars">★★★★★ (222)</div>
+    <div class="price">
+      <span class="old-price">$24.00</span>
+      <span class="new-price">$18.00</span>
+      <span class="discount">10% OFF</span>
+    </div>
+  </div>
+
+  <div class="product">
+    <img src="./image4.png" alt="Organic Spinach Leaves">
+    <div>Organic Spinach Leaves (Fresh Produce)</div>
+    <div class="stars">★★★★★ (222)</div>
+    <div class="price">
+      <span class="old-price">$24.00</span>
+      <span class="new-price">$18.00</span>
+      <span class="discount">10% OFF</span>
+    </div>
+  </div>
+
+</div>
+
+</body>
+</html>
